@@ -1,4 +1,4 @@
-import { DB_HOST,DB_NAME,DB_PASSWORD,DB_USER,DB_PORT } from "./config";
+const { DB_HOST, DB_NAME, DB_PASSWORD, DB_USER, DB_PORT } = require("./config");
 
 const express = require("express");
 const cors = require("cors");
